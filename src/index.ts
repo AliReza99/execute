@@ -17,7 +17,7 @@ export function execute(command: string, options: ExecOptions = {}): Promise<str
     if (childProcess.stdout) {
       childProcess.stdout.on('data', (chunk: Buffer) => {
         chunks.push(chunk);
-        if (disableStdOut) {
+        if (!disableStdOut) {
           process.stdout.write(chunk);
         }
       });
