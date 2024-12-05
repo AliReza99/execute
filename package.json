@@ -2,12 +2,13 @@
   "name": "@arbz/execute",
   "private": false,
   "version": "1.0.3",
-  "description": "",
+  "description": "promisified exec of node child_process",
   "author": "Alireza Bahrani",
   "license": "MIT",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": "https://github.com/AliReza99/execute.git",
   "files": [
     "dist"
   ],
