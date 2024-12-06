@@ -1,7 +1,7 @@
 {
   "name": "@arbz/execute",
   "private": false,
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "promisified exec of node child_process",
   "author": "Alireza Bahrani",
   "license": "MIT",
