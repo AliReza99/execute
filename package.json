@@ -8,7 +8,11 @@
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "repository": "https://github.com/AliReza99/execute.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AliReza99/execute.git"
+  },
+  "keywords": ["node", "child_process", "exec", "promisified", "execute"],
   "files": [
     "dist"
   ],
@@ -19,10 +23,7 @@
     "prebuild": "rimraf dist",
     "build": "tsc",
     "do-link": "npm link",
-    "release:patch": "npm version patch",
-    "release:major": "npm version major",
-    "release:private": "npm publish --access=restricted",
-    "release:public": "npm publish --access=public"
+    "release": "npx release patch"
   },
   "devDependencies": {
     "@types/node": "^22.7.0",
