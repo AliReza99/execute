@@ -1,7 +1,7 @@
 {
   "name": "@arbz/execute",
   "private": false,
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "promisified exec of node child_process",
   "author": "Alireza Bahrani",
   "license": "MIT",
@@ -12,7 +12,13 @@
     "type": "git",
     "url": "git+https://github.com/AliReza99/execute.git"
   },
-  "keywords": ["node", "child_process", "exec", "promisified", "execute"],
+  "keywords": [
+    "node",
+    "child_process",
+    "exec",
+    "promisified",
+    "execute"
+  ],
   "files": [
     "dist"
   ],
